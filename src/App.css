@@ -1,38 +1,146 @@
-.App {
-  text-align: center;
+
+
+body{
+  background-color: rgb(228, 224, 222);
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+.main-body{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+
+#myVideo {
+
+  border-radius: 10px;
+  max-width: 450px;
+
+}
+
+
+.image-portrait {
+
+max-width: 450px;
+max-height: 285px;
+margin-top: 100px;
+overflow: hidden;
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+
+/* .image-portrait img {
+  
+} */
+
+.landing-render {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.landing-text {
+  margin-top: 200px;
+  margin-left: 50px;
+}
+
+@media (max-width: 600px) {
+
+  #myVideo {
+    width: 80%
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  .landing-render{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+  }
+
+  .landing-text {
+    /* margin-top: 100px;
+    margin-left: 20px;
+    font-size: 15px; */
+
+    width: 80%
+  }
+
+.main-body{
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.element {
+  /* filter: blur(10px);
+  -webkit-filter: blur(10px); */
+}
+
+.element:hover {
+
+  filter: blur(0px);
+  -webkit-filter: blur(0px);
+}
+
+
+.border{
+  border: 1, 0 px solid black;
+  height: 100px;
+}
+
+
+.header{
+  border-top: 0.5px solid;
+  border-bottom: 0.5px solid;
+
+  height: 50px;
+}
+
+
+
+.window{
+  border: 0.5px solid;
+  font-family: 'Roboto Mono', sans-serif;
+  font-weight: 300;
+  height: 70px;
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+
+}
+
+
+.mini-nav{
+  border: 0.5px solid;
+  border-bottom: 0px;
+  font-family: 'Roboto Mono', sans-serif;
+  font-weight: 300;
+  height: 15px;
+  padding: 3px;
+  text-align: right;
+}
+
+.button-really{
+  border: 0.5px solid;
+  height: 40px;
+  width: 90px;
+  margin-top: 10px;
+  padding: 5px;
+  text-align: center;
+  background: transparent;
+  font-family: 'Roboto Mono', sans-serif;
+  font-weight: 300;
 }
