@@ -87,48 +87,42 @@ class App extends React.Component {
                 <div >
 
                   <hr />
-                  {/* <div class="landing-text-right">
-                  Projects:
+                  <div class="landing-text-right">
+                    Projects:
                 </div>
 
-                <div>
-                  <a href="https://depth-rituals.herokuapp.com/" >  → Depth Rituals</a>
-                  
-
+                  {/* <div>
+                  <a href="https://depth-rituals.herokuapp.com/" target="_blank">  → Depth Rituals</a>
                   
                 </div>
                 <div>
-                 <a href="https://women-of-tomorrow.herokuapp.com/" > 	
+                 <a href="https://women-of-tomorrow.herokuapp.com/" target="_blank"> 	
                  → Women Of Tomorrow </a>
                 </div>
                 <div>
 
-                  <a href="https://rutazem.github.io/sliding-doors-game/" >→ Sliding Doors</a> */}
+                  <a href="https://rutazem.github.io/sliding-doors-game/" target="_blank">→ Sliding Doors</a>
 
-
-                  {/* <div class="gif">
-              <img src="sliding.gif" alt="" class="gif" />
-            </div> */}
+                </div> */}
                 </div>
-              </div>
 
-              <Landing></Landing>
+                <Landing></Landing>
+              </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="landing-render">
-        <div>
-          941229{" "}
-          <a href="https://www.linkedin.com/in/rutazem/">
-            {" "}
-            → Rūta Žemčugovaitė{" "}
-          </a>
-          Berlin, Germany{" "}
+        <div class="landing-render">
+          <div>
+            941229{" "}
+            {/* <a href="https://www.linkedin.com/in/rutazem/">
+              {" "}
+              → Rūta Žemčugovaitė{" "}
+            </a> */}
+            Berlin, Germany{" "}
+          </div>
         </div>
       </div>
-      </div >
     );
   }
 }
