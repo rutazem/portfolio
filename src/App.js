@@ -45,9 +45,9 @@ class App extends React.Component {
               <div class="landing-text-right">
                 <div class="dream-window">
                   <div class="mini-nav">
-                    <a href="" onClick={this.dreamWindow}>
+                    {/* <a href="" onClick={this.dreamWindow}>
                       X{" "}
-                    </a>
+                    </a> */}
                   </div>
 
                   <p class="window"> Not a dream. </p>
