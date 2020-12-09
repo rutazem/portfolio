@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import "./App.css";
 // import { render } from '@testing-library/react';
 // import Landing from './components/landing-page'
@@ -33,14 +33,14 @@ class App extends React.Component {
 
         <div class="main-body">
           <div>
-<div class="circle">
-                <p>IT'S NOT A RACE</p>
-              </div>
+            <div class="circle">
+              <p>IT'S NOT A RACE</p>
+            </div>
 
             <div class="landing-render">
-             
 
-              
+
+
 
               <div class="landing-text-right">
                 <div class="dream-window">
@@ -55,27 +55,27 @@ class App extends React.Component {
 
                 <div>
                   <button class="button-really">Really?</button>
-                
+
                 </div>
 
 
                 <div data-aos="fade-up">
-                <div>
+                  <div>
                     <p>It's just a slowed-down web experience.</p>
                   </div>
-                
+
                 </div>
-                  
 
 
-                  <div class="circle-2">
-                    <p>TO THE END OF THE MAZE</p>
-                  </div>
 
-                  <div class="landing-text-right">
-                    {" "}
-                    I am a web designer and a full stack developer.{" "}
-                  </div>
+                <div class="circle-2">
+                  <p>TO THE END OF THE MAZE</p>
+                </div>
+
+                <div class="landing-text-right">
+                  {" "}
+                  I am a web designer and a full stack developer.{" "}
+                </div>
                 <div class="landing-text-left"> Focused on Humane Tech Principles. </div>
 
                 <div class="landing-text-right">
@@ -84,51 +84,51 @@ class App extends React.Component {
                   human nature.{" "}
                 </div>
 
-<div >
+                <div >
 
-<hr/>
-                <div class="landing-text-right">
+                  <hr />
+                  {/* <div class="landing-text-right">
                   Projects:
                 </div>
 
                 <div>
-                  <a href="https://depth-rituals.herokuapp.com/" target="_blank">  → Depth Rituals</a>
+                  <a href="https://depth-rituals.herokuapp.com/" >  → Depth Rituals</a>
                   
 
                   
                 </div>
                 <div>
-                 <a href="https://women-of-tomorrow.herokuapp.com/" target="_blank"> 	
+                 <a href="https://women-of-tomorrow.herokuapp.com/" > 	
                  → Women Of Tomorrow </a>
                 </div>
                 <div>
 
-                  <a href="https://rutazem.github.io/sliding-doors-game/" target="_blank">→ Sliding Doors</a>
-                  
+                  <a href="https://rutazem.github.io/sliding-doors-game/" >→ Sliding Doors</a> */}
 
-                   {/* <div class="gif">
+
+                  {/* <div class="gif">
               <img src="sliding.gif" alt="" class="gif" />
             </div> */}
                 </div>
-</div>
-
-                <Landing></Landing>
               </div>
+
+              <Landing></Landing>
             </div>
           </div>
         </div>
+      </div>
 
-        <div class="landing-render">
-          <div>
-            941229{" "}
-            <a href="https://www.linkedin.com/in/rutazem/">
-              {" "}
-              → Rūta Žemčugovaitė{" "}
-            </a>
-            Berlin, Germany{" "}
-          </div>
+      <div class="landing-render">
+        <div>
+          941229{" "}
+          <a href="https://www.linkedin.com/in/rutazem/">
+            {" "}
+            → Rūta Žemčugovaitė{" "}
+          </a>
+          Berlin, Germany{" "}
         </div>
       </div>
+      </div >
     );
   }
 }
