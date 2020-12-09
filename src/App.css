@@ -1,6 +1,4 @@
-
-
-body{
+body {
   background-color: rgb(255, 255, 255);
 
 }
@@ -8,7 +6,7 @@ body{
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 
-.main-body{
+.main-body {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -32,66 +30,78 @@ flex-direction: row;
 justify-content: center;
 } */
 
-.circle{
+.circle {
   margin-top: 200px;
   margin-left: 200px;
-    width: 0px;
-    height: 0px;
-    font-size: 20px;
+  width: 0px;
+  height: 0px;
+  font-size: 20px;
 
-    border-radius: 50%;
-    /* background-color: #fff; */
-    box-shadow:
-      0 0 55px 30px rgb(255, 255, 255),  /* inner white */
-      0 0 120px 70px rgb(61, 250, 118), /* middle magenta */
-      0 0 150px 110px rgb(15, 79, 255); /* outer cyan */
-  
+  border-radius: 50%;
+  /* background-color: #fff; */
+  box-shadow:
+    0 0 55px 30px rgb(255, 255, 255),
+    /* inner white */
+    0 0 120px 70px rgb(61, 250, 118),
+    /* middle magenta */
+    0 0 150px 110px rgb(15, 79, 255);
+  /* outer cyan */
+
 }
 
 .circle:hover {
   margin-top: 200px;
   margin-left: 200px;
-    width: 0px;
-    height: 0px;
-    border-radius: 50%;
-    /* background-color: #fff; */
-    box-shadow:
-      0 0 55px 30px #fff,  /* inner white */
-      0 0 100px 50px rgb(253, 12, 161), /* middle magenta */
-      0 0 140px 110px rgb(0, 173, 253); /* outer cyan */
-  
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  /* background-color: #fff; */
+  box-shadow:
+    0 0 55px 30px #fff,
+    /* inner white */
+    0 0 100px 50px rgb(253, 12, 161),
+    /* middle magenta */
+    0 0 140px 110px rgb(0, 173, 253);
+  /* outer cyan */
+
 }
 
 
-.circle-2{
+.circle-2 {
   margin-top: 200px;
   margin-bottom: 200px;
   margin-left: 300px;
   text-align: right;
-    width: 0px;
-    height: 0px;
-    border-radius: 50%;
-    font-size: 20px;
-    /* background-color: #fff; */
-    box-shadow:
-      0 0 55px 30px rgb(255, 255, 255),  /* inner white */
-      0 0 100px 66px rgb(255, 218, 52), /* middle magenta */
-      0 0 150px 110px rgb(245, 87, 166); /* outer cyan */
-  
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  font-size: 20px;
+  /* background-color: #fff; */
+  box-shadow:
+    0 0 55px 30px rgb(255, 255, 255),
+    /* inner white */
+    0 0 100px 66px rgb(255, 218, 52),
+    /* middle magenta */
+    0 0 150px 110px rgb(245, 87, 166);
+  /* outer cyan */
+
 }
 
 .circle-2:hover {
   margin-top: 200px;
   margin-left: 80px;
-    width: 0px;
-    height: 0px;
-    border-radius: 50%;
-    /* background-color: #fff; */
-    box-shadow:
-      0 0 55px 30px #fff,  /* inner white */
-      0 0 100px 50px rgb(12, 225, 253), /* middle magenta */
-      0 0 140px 110px rgb(253, 142, 235); /* outer cyan */
-  
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  /* background-color: #fff; */
+  box-shadow:
+    0 0 55px 30px #fff,
+    /* inner white */
+    0 0 100px 50px rgb(12, 225, 253),
+    /* middle magenta */
+    0 0 140px 110px rgb(253, 142, 235);
+  /* outer cyan */
+
 }
 
 
@@ -120,182 +130,197 @@ justify-content: center;
 }
 
 
-.main-text{
+.main-text {
   font-size: 30px;
-  }
+}
 
 
 
-  .element {
-    /* filter: blur(10px);
+.element {
+  /* filter: blur(10px);
     -webkit-filter: blur(10px); */
-  }
-  
-  .element:hover {
-  
-    filter: blur(0px);
-    -webkit-filter: blur(0px);
-  }
-  
-  
-  .border{
-    border: 1, 0 px solid black;
-    height: 100px;
-  }
-  
-  
-  .header{
-    /* border-top: 0.5px solid; */
-    border-bottom: 0.5px solid;
-  
-    height: 50px;
-    padding-left: 5px;
-   padding-top: 5px
-  }
-  
-  
-  
-  .window{
-    border: 0.5px solid;
-    font-family: 'Roboto Mono', sans-serif;
-    font-weight: 300;
-    height: 90px;
-    margin: 0px;
-    padding: 15px;
-    text-align: center;
-    display: flex;
-    
-  
-  }
-  
-  
-  .mini-nav{
-    border: 0.5px solid;
-    border-bottom: 0px;
-    font-family: 'Roboto Mono', sans-serif;
-    font-weight: 300;
-    height: 30px;
-    padding: 3px;
-    padding-right: 10px;
-    text-align: right;
-    
-  }
-  
-  
-  .dream-window{
-  margin-top:80px;
-    max-width: 350px;
-    /* margin-left: 10px; */
-  }
-  
-  .button-really{
-    border: 0.8px solid;
-    height: 60px;
-    width: 140px;
-    margin-top: 30px;
-    padding: 5px;
-    text-align: center;
-    background: transparent;
-    font-family: 'Roboto Mono', sans-serif;
-    font-weight: 400;
-    font-size: 20px
-  }
-  
-  
-   a:visited {
-    color: rgb(7, 88, 7);
-    text-decoration: none;
-    cursor: pointer;
-  }
-  
-  
-  a:link {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    cursor: pointer;
-  }
+}
+
+.element:hover {
+
+  filter: blur(0px);
+  -webkit-filter: blur(0px);
+}
 
 
-  /* >>>>>>>>>>>>>>>>>>>>> MOBILE VERSION <<<<<<<<<<<<<<<<<<<<<<<  */
+.border {
+  border: 1, 0 px solid black;
+  height: 100px;
+}
+
+
+.header {
+  /* border-top: 0.5px solid; */
+  border-bottom: 0.5px solid;
+
+
+
+  height: 50px;
+  padding-left: 5px;
+  padding-top: 5px
+}
+
+
+
+.window {
+  border: 0.5px solid;
+  font-family: 'Roboto Mono', sans-serif;
+  font-weight: 300;
+  height: 90px;
+  margin: 0px;
+  padding: 15px;
+  text-align: center;
+  display: flex;
+
+
+}
+
+
+.mini-nav {
+  border: 0.5px solid;
+  border-bottom: 0px;
+  font-family: 'Roboto Mono', sans-serif;
+  font-weight: 300;
+  height: 30px;
+  padding: 3px;
+  padding-right: 10px;
+  text-align: right;
+
+}
+
+
+.dream-window {
+  margin-top: 80px;
+  max-width: 350px;
+  /* margin-left: 10px; */
+}
+
+.button-really {
+  border: 0.8px solid;
+  height: 60px;
+  width: 140px;
+  margin-top: 30px;
+  padding: 5px;
+  text-align: center;
+  background: transparent;
+  font-family: 'Roboto Mono', sans-serif;
+  font-weight: 400;
+  font-size: 20px
+}
+
+
+a:visited {
+  color: rgb(7, 88, 7);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+a:link {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+/* >>>>>>>>>>>>>>>>>>>>> MOBILE VERSION <<<<<<<<<<<<<<<<<<<<<<<  */
 @media (max-width: 600px) {
 
 
-  .circle{
+  .circle {
     margin-top: 100px;
     margin-left: 300px;
     margin-bottom: 50px;
-      width: 0px;
-      height: 0px;
-      border-radius: 50%;
-      /* background-color: #fff; */
-      box-shadow:
-        0 0 55px 30px rgb(255, 255, 255),  /* inner white */
-        0 0 100px 66px rgb(61, 250, 118), /* middle magenta */
-        0 0 140px 110px rgb(15, 79, 255); /* outer cyan */
-    
+    width: 0px;
+    height: 0px;
+    border-radius: 50%;
+    /* background-color: #fff; */
+    box-shadow:
+      0 0 55px 30px rgb(255, 255, 255),
+      /* inner white */
+      0 0 100px 66px rgb(61, 250, 118),
+      /* middle magenta */
+      0 0 140px 110px rgb(15, 79, 255);
+    /* outer cyan */
+
   }
-  
+
   .circle:hover {
     margin-top: 200px;
     margin-left: 300px;
-      width: 0px;
-      height: 0px;
-      border-radius: 50%;
-      /* background-color: #fff; */
-      box-shadow:
-        0 0 55px 30px #fff,  /* inner white */
-        0 0 100px 50px rgb(253, 12, 161), /* middle magenta */
-        0 0 140px 110px rgb(0, 173, 253); /* outer cyan */
-    
+    width: 0px;
+    height: 0px;
+    border-radius: 50%;
+    /* background-color: #fff; */
+    box-shadow:
+      0 0 55px 30px #fff,
+      /* inner white */
+      0 0 100px 50px rgb(253, 12, 161),
+      /* middle magenta */
+      0 0 140px 110px rgb(0, 173, 253);
+    /* outer cyan */
+
   }
-  
-  
-  .circle-2{
+
+
+  .circle-2 {
     margin-top: 200px;
     margin-left: 80px;
-      width: 0px;
-      height: 0px;
-      border-radius: 50%;
-      /* background-color: #fff; */
-      box-shadow:
-        0 0 40px 30px rgb(255, 255, 255),  /* inner white */
-        0 0 100px 60px rgb(255, 218, 52), /* middle magenta */
-        0 0 140px 110px rgb(245, 87, 166); /* outer cyan */
+    width: 0px;
+    height: 0px;
+    border-radius: 50%;
+    /* background-color: #fff; */
+    box-shadow:
+      0 0 40px 30px rgb(255, 255, 255),
+      /* inner white */
+      0 0 100px 60px rgb(255, 218, 52),
+      /* middle magenta */
+      0 0 140px 110px rgb(245, 87, 166);
+    /* outer cyan */
 
-       
-    
+
+
   }
-  
+
   .circle-2:hover {
     margin-top: 200px;
     margin-left: 80px;
-      width: 0px;
-      height: 0px;
-      border-radius: 50%;
-      /* background-color: #fff; */
-      box-shadow:
-        0 0 55px 30px #fff,  /* inner white */
-        0 0 100px 50px rgb(12, 225, 253), /* middle magenta */
-        0 0 140px 110px rgb(253, 142, 235); /* outer cyan */
-    
-  }
-  
+    width: 0px;
+    height: 0px;
+    border-radius: 50%;
+    /* background-color: #fff; */
+    box-shadow:
+      0 0 55px 30px #fff,
+      /* inner white */
+      0 0 100px 50px rgb(12, 225, 253),
+      /* middle magenta */
+      0 0 140px 110px rgb(253, 142, 235);
+    /* outer cyan */
 
-  .landing-render{
+  }
+
+
+  .landing-render {
 
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+
   }
+
   .landing-text-right {
     margin-top: 100px;
     margin-left: 10px;
     font-size: 30px;
     padding: 10px
   }
-  
-  
+
+
   .landing-text-left {
     margin-top: 100px;
     margin-left: 50px;
@@ -303,42 +328,42 @@ justify-content: center;
     font-size: 30px;
     text-align: right
   }
-  
-  
-  .main-text{
+
+
+  .main-text {
     font-size: 30px;
-    }
-  
+  }
 
 
 
-  
 
-.main-body{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+
+
+  .main-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+
+
+  .dream-window {
+
+    max-width: 300px;
+    /* margin-left: 10px; */
+  }
+
+
 }
 
 
+/* >>>>>>>>>>>>>>>>>>>>> MOBILE VERSION END <<<<<<<<<<<<<<<<<<<<<<<  */
 
-.dream-window{
-  
-  max-width: 300px;
-  /* margin-left: 10px; */
+
+.gif {
+  width: 1000px;
 }
 
-
+.arrow {
+  color: rgb(7, 88, 7);
 }
-
-
- /* >>>>>>>>>>>>>>>>>>>>> MOBILE VERSION END <<<<<<<<<<<<<<<<<<<<<<<  */
-
-
- .gif{
-width: 1000px;
- }
-
- .arrow{
-   color: rgb(7, 88, 7);
- }
