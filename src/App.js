@@ -45,9 +45,8 @@ class App extends React.Component {
               <div class="landing-text-right">
                 <div class="dream-window">
                   <div class="mini-nav">
-                    <a href="" rel="noopener noreferrer">
-                      X{" "}
-                    </a>
+                  ✕
+                  {/* <button class="x-button"> ✕ </button> */}
                   </div>
 
                   <p class="window"> Not a dream. </p>
