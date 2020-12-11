@@ -115,10 +115,10 @@ class App extends React.Component {
         <div class="landing-render">
           <div>
             941229{" "}
-            {/* <a href="https://www.linkedin.com/in/rutazem/">
+            <a href="https://www.linkedin.com/in/rutazem/">
               {" "}
               → Rūta Žemčugovaitė{" "}
-            </a> */}
+            </a>
             Berlin, Germany{" "}
           </div>
         </div>
