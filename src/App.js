@@ -91,7 +91,7 @@ class App extends React.Component {
                     Projects:
                 </div>
 
-                  {/* <div>
+                  <div>
                   <a href="https://depth-rituals.herokuapp.com/" target="_blank">  → Depth Rituals</a>
                   
                 </div>
@@ -103,7 +103,7 @@ class App extends React.Component {
 
                   <a href="https://rutazem.github.io/sliding-doors-game/" target="_blank">→ Sliding Doors</a>
 
-                </div> */}
+                </div>
                 </div>
 
                 <Landing></Landing>
@@ -115,7 +115,7 @@ class App extends React.Component {
         <div class="landing-render">
           <div>
             941229{" "}
-            <a href="https://www.linkedin.com/in/rutazem/">
+            <a href="https://www.linkedin.com/in/rutazem/" target="_blank">
               {" "}
               → Rūta Žemčugovaitė{" "}
             </a>
