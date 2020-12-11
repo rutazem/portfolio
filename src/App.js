@@ -45,9 +45,9 @@ class App extends React.Component {
               <div class="landing-text-right">
                 <div class="dream-window">
                   <div class="mini-nav">
-                    {/* <a href="" onClick={this.dreamWindow}>
+                    <a href="" rel="noopener noreferrer">
                       X{" "}
-                    </a> */}
+                    </a>
                   </div>
 
                   <p class="window"> Not a dream. </p>
@@ -92,16 +92,16 @@ class App extends React.Component {
                 </div>
 
                   <div>
-                  <a href="https://depth-rituals.herokuapp.com/" target="_blank">  → Depth Rituals</a>
+                  <a href="https://depth-rituals.herokuapp.com/" target="_blank" rel="noopener noreferrer">  → Depth Rituals</a>
                   
                 </div>
                 <div>
-                 <a href="https://women-of-tomorrow.herokuapp.com/" target="_blank"> 	
+                 <a href="https://women-of-tomorrow.herokuapp.com/" target="_blank" rel="noopener noreferrer"> 	
                  → Women Of Tomorrow </a>
                 </div>
                 <div>
 
-                  <a href="https://rutazem.github.io/sliding-doors-game/" target="_blank">→ Sliding Doors</a>
+                  <a href="https://rutazem.github.io/sliding-doors-game/" target="_blank" rel="noopener noreferrer">→ Sliding Doors</a>
 
                 </div>
                 </div>
@@ -115,7 +115,7 @@ class App extends React.Component {
         <div class="landing-render">
           <div>
             941229{" "}
-            <a href="https://www.linkedin.com/in/rutazem/" target="_blank">
+            <a href="https://www.linkedin.com/in/rutazem/" target="_blank" rel="noopener noreferrer">
               {" "}
               → Rūta Žemčugovaitė{" "}
             </a>

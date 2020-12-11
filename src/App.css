@@ -222,11 +222,16 @@ a:visited {
 
 
 a:link {
-  color: rgb(0, 0, 0);
+  color: rgb(7, 88, 7);
   text-decoration: none;
   cursor: pointer;
 }
 
+a:hover {
+  color: rgb(252, 164, 190);
+  text-decoration: none;
+  cursor: pointer;
+}
 
 /* >>>>>>>>>>>>>>>>>>>>> MOBILE VERSION <<<<<<<<<<<<<<<<<<<<<<<  */
 @media (max-width: 600px) {
